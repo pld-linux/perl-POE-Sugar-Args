@@ -47,9 +47,6 @@ znosiæ konsekwencje. Powodzenia.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-#%{__perl} Build.PL \
-#	config="sitelib=%{perl_vendorlib} sitearch=%{perl_vendorarch}"
-#./Build
 touch Makefile.PL
 %{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"POE::Sugar::Args",PL_FILES=>{})' \
 	INSTALLDIRS=vendor
