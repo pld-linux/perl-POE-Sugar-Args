@@ -5,13 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
 %define	pnam	Sugar-Args
-Summary:	POE::Sugar::Args - Get "pretty", OO representation of args.
-#Summary(pl):	
+Summary:	POE::Sugar::Args - Get "pretty", OO representation of args
+Summary(pl):	POE::Sugar::Args - "³adna", obiektowo zorientowana reprecentacja argumentów
 Name:		perl-POE-Sugar-Args
 Version:	1.2
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a5d63213f3e5c8dd55838f753ae8c04e
@@ -29,12 +29,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module give an OO representation to arguments POE passes to event
 states. I will not lie to you. This adds heavy, bulky code underneath.
 On the other hand, it makes arguments for POE events much more
-palatable. Of course, this is a Sugar module, meaning, it will rot your
-program in odd (you'll be hooked) and unexpected ways (performace), but
-you took the candy so you can suffer the consequences. Good luck.
+palatable. Of course, this is a Sugar module, meaning, it will rot
+your program in odd (you'll be hooked) and unexpected ways
+(performace), but you took the candy so you can suffer the
+consequences. Good luck.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ nadaje obiektowo zorientowan± reprecentacjê argumentom,
+które POE przekazuje do stanów zdarzeñ. Autor nie zamierza k³amaæ -
+ten modu³ dodaje ciê¿ki, masywny kod. Z drugiej strony, czyni
+argumenty zdarzeñ POE bardziej smacznymi. Oczywi¶cie jest to modu³
+Sugar (cukier), co oznacza, ¿e program zgnije w dziwny i nieoczekiwany
+sposób (wydajno¶æ), ale u¿ywaj±cy tego modu³u bierze cukierek i mo¿e
+znosiæ konsekwencje. Powodzenia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
