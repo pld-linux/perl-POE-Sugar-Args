@@ -9,7 +9,7 @@ Summary:	POE::Sugar::Args - get "pretty", OO representation of args
 Summary(pl):	POE::Sugar::Args - "³adna", obiektowo zorientowana reprezentacja argumentów
 Name:		perl-POE-Sugar-Args
 Version:	1.3
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
