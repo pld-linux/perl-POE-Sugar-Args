@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	99b1a0c0abb3a25353603bb79be7d005
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{!?_without_tests:1}0
+%if %{with tests}
 BuildRequires:	perl-Devel-Caller-Perl
 BuildRequires:	perl-Exporter-Lite
 BuildRequires:	perl-POE
@@ -55,7 +55,7 @@ touch Makefile.PL
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
