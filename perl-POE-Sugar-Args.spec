@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Sugar-Args
+%define		pdir	POE
+%define		pnam	Sugar-Args
 Summary:	POE::Sugar::Args - get "pretty", OO representation of args
 Summary(pl):	POE::Sugar::Args - "³adna", obiektowo zorientowana reprezentacja argumentów
 Name:		perl-POE-Sugar-Args
