@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
 %define	pnam	Sugar-Args
-Summary:	POE::Sugar::Args - Get "pretty", OO representation of args
+Summary:	POE::Sugar::Args - get "pretty", OO representation of args
 Summary(pl):	POE::Sugar::Args - "³adna", obiektowo zorientowana reprezentacja argumentów
 Name:		perl-POE-Sugar-Args
 Version:	1.3
