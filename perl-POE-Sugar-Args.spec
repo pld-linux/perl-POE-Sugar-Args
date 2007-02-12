@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Sugar-Args
 Summary:	POE::Sugar::Args - get "pretty", OO representation of args
-Summary(pl):	POE::Sugar::Args - "³adna", obiektowo zorientowana reprezentacja argumentów
+Summary(pl.UTF-8):   POE::Sugar::Args - "Å‚adna", obiektowo zorientowana reprezentacja argumentÃ³w
 Name:		perl-POE-Sugar-Args
 Version:	1.3
 Release:	2
@@ -34,14 +34,14 @@ your program in odd (you'll be hooked) and unexpected ways
 (performace), but you took the candy so you can suffer the
 consequences. Good luck.
 
-%description -l pl
-Ten modu³ nadaje obiektowo zorientowan± reprezentacjê argumentom,
-które POE przekazuje do stanów zdarzeñ. Autor nie zamierza k³amaæ -
-ten modu³ dodaje ciê¿ki, masywny kod. Z drugiej strony, czyni
-argumenty zdarzeñ POE bardziej smacznymi. Oczywi¶cie jest to modu³
-Sugar (cukier), co oznacza, ¿e program zgnije w dziwny i nieoczekiwany
-sposób (wydajno¶æ), ale u¿ywaj±cy tego modu³u bierze cukierek i mo¿e
-znosiæ konsekwencje. Powodzenia.
+%description -l pl.UTF-8
+Ten moduÅ‚ nadaje obiektowo zorientowanÄ… reprezentacjÄ™ argumentom,
+ktÃ³re POE przekazuje do stanÃ³w zdarzeÅ„. Autor nie zamierza kÅ‚amaÄ‡ -
+ten moduÅ‚ dodaje ciÄ™Å¼ki, masywny kod. Z drugiej strony, czyni
+argumenty zdarzeÅ„ POE bardziej smacznymi. OczywiÅ›cie jest to moduÅ‚
+Sugar (cukier), co oznacza, Å¼e program zgnije w dziwny i nieoczekiwany
+sposÃ³b (wydajnoÅ›Ä‡), ale uÅ¼ywajÄ…cy tego moduÅ‚u bierze cukierek i moÅ¼e
+znosiÄ‡ konsekwencje. Powodzenia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
