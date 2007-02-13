@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Sugar-Args
 Summary:	POE::Sugar::Args - get "pretty", OO representation of args
-Summary(pl.UTF-8):   POE::Sugar::Args - "ładna", obiektowo zorientowana reprezentacja argumentów
+Summary(pl.UTF-8):	POE::Sugar::Args - "ładna", obiektowo zorientowana reprezentacja argumentów
 Name:		perl-POE-Sugar-Args
 Version:	1.3
 Release:	2
