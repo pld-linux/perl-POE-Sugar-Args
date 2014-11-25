@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Sugar-Args
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Sugar::Args - get "pretty", OO representation of args
 Summary(pl.UTF-8):	POE::Sugar::Args - "ładna", obiektowo zorientowana reprezentacja argumentów
 Name:		perl-POE-Sugar-Args
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	99b1a0c0abb3a25353603bb79be7d005
+URL:		http://search.cpan.org/dist/POE-Sugar-Args/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
